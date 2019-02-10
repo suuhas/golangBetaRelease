@@ -20,7 +20,7 @@ func GetPublicAPI() {
 			fmt.Printf("%s", err)
 			os.Exit(1)
 		}
-		fmt.Printf("Test")
+		fmt.Printf("Test new")
 		fmt.Printf("%s\n", string(contents))
 	}
 }
